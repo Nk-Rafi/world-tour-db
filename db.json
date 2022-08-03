@@ -1,0 +1,141 @@
+{
+    "countries": [
+        {"id": 1, "name": "Netherland", "status": "now", "totalData": 50},
+        {"id": 2, "name": "Belgium", "status": null, "totalData": 5},
+        {"id": 3, "name": "Germany", "status": "now", "totalData": 5},
+        {"id": 4, "name": "France", "status": null, "totalData": 5},
+        {"id": 5, "name": "England", "status": null, "totalData": 5},
+        {"id": 6, "name": "Spain", "status": null, "totalData": 5},
+        {"id": 7, "name": "Portugal", "status": null, "totalData": 5},
+        {"id": 8, "name": "Italy", "status": "now", "totalData": 5},
+        {"id": 9, "name": "Morocco", "status": null, "totalData": 5},
+        {"id": 10, "name": "Greece", "status": null, "totalData": 5},
+        {"id": 11, "name": "EEUU", "status": null, "totalData": 5},
+        {"id": 12, "name": "Colombia", "status": "actualization", "totalData": 5},
+        {"id": 13, "name": "Peru", "status": null, "totalData": 5},
+        {"id": 14, "name": "Ecuador", "status": null, "totalData": 5},
+        {"id": 15, "name": "Canada", "status": null, "totalData": 5}
+    ],
+    "cities":[
+        {"id": 1, "name": "Amsterdam", "countryId": 1, "status": "actualization", "totalData": 5},
+        {"id": 2, "name": "Rotterdam", "countryId": 1, "status": null, "totalData": 5},
+        {"id": 3, "name": "The hauge", "countryId": 1, "status": null, "totalData": 4},
+        {"id": 4, "name": "Utrecht", "countryId": 1, "status": "now", "totalData": 6},
+        {"id": 5, "name": "Groningen", "countryId": 1, "status": null, "totalData": 5},
+        {"id": 6, "name": "Nimega", "countryId": 1, "status": null, "totalData": 5},
+        {"id": 7, "name": "Mastrecht", "countryId": 1, "status": null, "totalData": 5}
+    ],
+    "tours": [
+        {
+            "id":1,
+            "title": "Free tour Rotterdam English",
+            "stops": 3,
+            "status": "now",
+            "lastChanged": "12/10/2021",
+            "author": "By Mauritshuis",
+            "cityId": 1
+        },
+        {
+            "id":2,
+            "title": "Free tour Rotterdam English",
+            "stops": 3,
+            "status": "draft",
+            "lastChanged": "12/10/2021",
+            "author": "By World tour audio guide",
+            "cityId": 1
+        },
+        {
+            "id":3,
+            "title": "Free tour Rotterdam English",
+            "stops": 3,
+            "status": "published",
+            "lastChanged": "12/10/2021",
+            "author": "By Museum",
+            "cityId": 1
+        },
+        {
+            "id":4,
+            "title": "Free tour Rotterdam English",
+            "stops": 3,
+            "status": "actualization",
+            "lastChanged": "12/10/2021",
+            "author": "By Escher in het Paleis",
+            "cityId": 1
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "sl": "01",
+            "email": "swg_91@hotmail.com",
+            "companyName": "World tour audio guide B.V.",
+            "date": "14/03/2021",
+            "status": "pending",
+            "cityId": 1
+        },
+        {
+            "id": 2,
+            "sl": "02",
+            "email": "jaime@gmail.com",
+            "companyName": "Kijk kubus museum B.V",
+            "date": "14/03/2021",
+            "status": "accepted",
+            "cityId": 1
+        },
+        {
+            "id": 3,
+            "sl": "01",
+            "email": "Inda@gmial.com",
+            "companyName": "Pinda Palais",
+            "date": "14/03/2021",
+            "status": "denied",
+            "cityId": 1
+        },
+        {
+            "id": 4,
+            "sl": "01",
+            "email": "swg_91@hotmail.com",
+            "companyName": "World tour audio guide B.V.",
+            "date": "14/03/2021",
+            "status": null,
+            "cityId": 1
+        }
+    ],
+    "freeWalks": [
+        {
+            "id": 1,
+            "name": "Bangladesh National Museum",
+            "lat": 23.7375227,
+            "long": 51.9173010,
+            "cityId": 1
+        },
+        {
+            "id": 2,
+            "name": "Williambrug",
+            "lat": 23.7375227,
+            "long": 51.9173010,
+            "cityId": 1
+        },
+        {
+            "id": 3,
+            "name": "Euromast",
+            "lat": 23.7375227,
+            "long": 51.9173010,
+            "cityId": 1
+        },
+        {
+            "id": 4,
+            "name": "Marines Memorial",
+            "lat": 23.7375227,
+            "long": 51.9173010,
+            "cityId": 1
+        },
+        {
+            "id": 5,
+            "name": "Nikunja 2",
+            "lat": 23.7375227,
+            "long": 51.9173010,
+            "cityId": 1
+        }
+    ]
+}
